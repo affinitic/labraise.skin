@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="labraise.skin">
+
+ <object name="labraise_skin_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="labraise.skin:skins/labraise_skin_custom_images"/>
+ <object name="labraise_skin_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="labraise.skin:skins/labraise_skin_custom_templates"/>
+ <object name="labraise_skin_styles"
+    meta_type="Filesystem Directory View"
+    directory="labraise.skin:skins/labraise_skin_styles"/>
+
+ <skin-path name="labraise.skin" based-on="Plone Default">
+  <layer name="labraise_skin_custom_images"
+     insert-after="custom"/>
+  <layer name="labraise_skin_custom_templates"
+     insert-after="labraise_skin_custom_images"/>
+  <layer name="labraise_skin_styles"
+     insert-after="labraise_skin_custom_templates"/>
+ </skin-path>
+
+</object>
