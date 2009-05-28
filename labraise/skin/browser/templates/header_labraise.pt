@@ -1,0 +1,7 @@
+<div id="header-msmile">
+    <div id="msmile-logo">
+        <a href=""
+           tal:attributes="href string: ${context/portal_url}"><img src="logo.jpg"></a>
+    </div>
+</div>
+<div class="visualClear"></div>

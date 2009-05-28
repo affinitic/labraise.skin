@@ -5,7 +5,6 @@
                handler="labraise.skin.setuphandlers.setupVarious"
                title="labraise.skin: miscellaneous import steps">
     <dependency step="skins" />
-    Various import steps that are not handled by GS import/export
-    handlers.
+    Setup portal for labraise
   </import-step>
 </import-steps>

@@ -1,10 +1,11 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="labraise.skin">
 
     <interface
-        interface=".interfaces.IThemeSpecific"
+        interface=".interfaces.ILaBraiseTheme"
         type="zope.publisher.interfaces.browser.IBrowserSkinType"
         name="labraise.skin"
         />
