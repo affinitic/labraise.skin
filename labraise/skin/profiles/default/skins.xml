@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="labraise.skin">
+   default_skin="LaBraiseSkin">
 
  <object name="labraise_skin_custom_images"
     meta_type="Filesystem Directory View"
@@ -12,7 +12,7 @@
     meta_type="Filesystem Directory View"
     directory="labraise.skin:skins/labraise_skin_styles"/>
 
- <skin-path name="labraise.skin" based-on="Plone Default">
+ <skin-path name="LaBraiseSkin" based-on="Plone Default">
   <layer name="labraise_skin_custom_images"
      insert-after="custom"/>
   <layer name="labraise_skin_custom_templates"

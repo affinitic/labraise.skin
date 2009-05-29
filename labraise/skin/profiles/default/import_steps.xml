@@ -3,7 +3,7 @@
   <import-step id="labraise.skin.various"
                version="20090528-01"
                handler="labraise.skin.setuphandlers.setupVarious"
-               title="labraise.skin: miscellaneous import steps">
+               title="LaBraiseSkin: miscellaneous import steps">
     <dependency step="skins" />
     Setup portal for labraise
   </import-step>

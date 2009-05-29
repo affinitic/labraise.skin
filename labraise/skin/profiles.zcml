@@ -5,9 +5,9 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="labraise.skin"
+      title="labraise skin"
       directory="profiles/default"
-      description='Extension profile for the "labraise.skin" Plone theme.'
+      description='Extension profile for the "labraise skin" Plone theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

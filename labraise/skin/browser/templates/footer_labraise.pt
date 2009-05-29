@@ -1,26 +1,19 @@
-   <div id="footer-msmile"
+   <div id="footer-labraise"
      metal:define-macro="portal_footer"
      i18n:domain="plone"
-     tal:define="portal_url context/portal_url;
-                 view context/bannerView;">
+     tal:define="portal_url context/portal_url;">
 
-        <div id="banner" tal:define="banner view/getBanner | nothing">
-            <img tal:condition="banner" 
-                 src="" 
-                 tal:replace="structure banner" />
-        </div>
         
         <div id="coordonnee">
-            M-SMILE SPRL &copy; 2004 - <span tal:define="now modules/DateTime/DateTime"
-                                             tal:replace="now/year" />
+            LA BRAISE &copy; 2004 - <span tal:define="now modules/DateTime/DateTime"
+                                         tal:replace="now/year" />
             <span i18n:domain="cesstex.skin"
                   i18n:translate="cesstex_copyright">
                -  All rights reserved.
-               - Chaussée de Dinant, 5 
-               - B5530 Spontin 
-               - <a href="contact-info">info@m-smile.be</a>
-               - Tel: 32(0) 83 690 319
-               - Gsm: 32(0) 496 896 335
+               - Rue de Moscou, 32
+               - B1060 Saint-Gilles 
+               - <a href="contact-info">info@labraise.be</a>
+               - Gsm: 32(0) 486 477 150
            </span>
            <div id="marque">
               <a href="http://plone.org"

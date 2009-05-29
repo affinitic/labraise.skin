@@ -16,26 +16,25 @@ background-image:url(bckg_body.gif);
 #header-labraise{
 margin-left:auto;
 margin-right:auto;
-background-color:#000;
+background-color:#643105;
 background-image:url(header.jpg);
-width:960px;
-height:177px;
+background-repeat:no-repeat;
+background-position:right;
+width:926px;
+height:189px;
 }
 
 #labraise-logo{
+margin-left:21px;
 }
 
 
 /*** BARRE PERSONNEL***/
 #portal-personaltools {
-width:954px;
-height:30px;
-background-color:#000;
-background-image:url(fond-personnel.png);
-background-repeat:no-repeat;
-background-position:top right;
-border-bottom:none;
-border-top:none;
+width:920px;
+background-color:#fff;
+border-bottom:1px solid #ebc5b6;
+border-top:1px solid #ebc5b6;
 color:#999;
 line-height:1.6em;
 list-style-image:none;
@@ -72,11 +71,9 @@ color:#d8de56;
 }
 /*** FIL ARIANE - BREADCRUMBS ***/
 #portal-breadcrumbs {
-width:945px;
-height:31px;
-background-image:url(fond-arianne.png);
-background-repeat:no-repeat;
-border-bottom:0px solid #8CACBB;
+background-color:#fff;
+width:911px;
+border-bottom:1px solid #ebc5b6;
 line-height:1.6em;
 padding-left:15px;
 padding-right:0em;
@@ -97,7 +94,7 @@ color:#d8de56;
 
 /*** TABLEAU CONTENU***/
 #portal-columns{
-width:960px !important;
+width:927px !important;
 margin-left:auto;
 margin-right:auto;
 }
@@ -181,4 +178,8 @@ background-color:#fff;
 background-image:url(fond-menu2.png);
 background-repeat:no-repeat;
 background-position:bottom;
+}
+
+#portal-column-content{
+background-color:#fff;    
 }

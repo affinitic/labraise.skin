@@ -4,10 +4,54 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="labraise.skin">
 
+    <!-- 'La Braise Skin' Zope3 browser Layer -->
     <interface
         interface=".interfaces.ILaBraiseTheme"
         type="zope.publisher.interfaces.browser.IBrowserSkinType"
-        name="labraise.skin"
+        name="LaBraiseSkin"
         />
 
+    <!-- Customize the navigation portlet -->
+    <plone:portletRenderer
+        portlet="plone.app.portlets.portlets.navigation.INavigationPortlet"
+        layer=".interfaces.ILaBraiseTheme"
+        class=".navigation.MyNavRenderer"
+         />
+
+    <!-- m-smile header -->
+    <browser:viewlet
+        name="labraise.header"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class=".viewlets.LaBraiseSectionsViewlet"
+        layer=".interfaces.ILaBraiseTheme"
+        permission="zope.Public"
+        />
+
+
+    <!-- move portlet plone.path_bar-->
+    <browser:viewlet
+        name="plone.path_bar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class="plone.app.layout.viewlets.common.PathBarViewlet"
+        layer=".interfaces.ILaBraiseTheme"
+        permission="zope2.View"
+        />
+
+    <!-- move portlet plone.personnal_bar-->
+    <browser:viewlet
+        name="plone.personnal_bar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
+        class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+        layer=".interfaces.ILaBraiseTheme"
+        permission="zope2.View"
+        />
+        
+    <!-- la braise footer -->
+    <browser:viewlet
+        name="labraise.footer"
+        manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+        class=".viewlets.LaBraiseFooterViewlet"
+        layer=".interfaces.ILaBraiseTheme"
+        permission="zope.Public"
+        />
 </configure>

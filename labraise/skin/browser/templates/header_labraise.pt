@@ -1,7 +1,7 @@
-<div id="header-msmile">
-    <div id="msmile-logo">
+<div id="header-labraise">
+    <div id="labraise-logo">
         <a href=""
-           tal:attributes="href string: ${context/portal_url}"><img src="logo.jpg"></a>
+           tal:attributes="href string: ${context/portal_url}"><img src="logo.png"></a>
     </div>
 </div>
 <div class="visualClear"></div>
