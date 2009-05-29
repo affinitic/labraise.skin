@@ -25,6 +25,8 @@
                  i18n:translate="label_powered_by_plone">
                  Powered by Plone</a>
                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href="http://www.affinitic.be"
                  target="_blank"
                  title="This site has been developed and is hosted by Affinitic."

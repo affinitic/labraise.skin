@@ -20,6 +20,8 @@ background-color:#643105;
 background-image:url(header.jpg);
 background-repeat:no-repeat;
 background-position:right;
+border-left:1px solid #4f1e0a;
+border-right:1px solid #4f1e0a;
 width:926px;
 height:189px;
 }
@@ -35,6 +37,8 @@ width:920px;
 background-color:#fff;
 border-bottom:1px solid #ebc5b6;
 border-top:1px solid #ebc5b6;
+border-left:1px solid #4f1e0a;
+border-right:1px solid #4f1e0a;
 color:#999;
 line-height:1.6em;
 list-style-image:none;
@@ -47,11 +51,11 @@ text-align:right;
 text-transform:none;
 }
 #portal-personaltools li a {
-color:#999;
+color:#777;
 text-decoration:none;
 }
 #portal-personaltools li a:hover {
-color:#d8de56;
+color:#ac3a06;
 text-decoration:none;
 }
 
@@ -59,21 +63,23 @@ text-decoration:none;
 /*** LANGUAGE SELECTOR ***/
 #portal-languageselector {
 float:left;
-margin-left:55px;
+margin-left:105px;
 }
 
 #portal-languageselector a {
-color:#bbb;
+color:#777;
 text-decoration:none;
 }
 #portal-languageselector a:hover {
-color:#d8de56;
+color:#ac3a06;
 }
 /*** FIL ARIANE - BREADCRUMBS ***/
 #portal-breadcrumbs {
 background-color:#fff;
 width:911px;
 border-bottom:1px solid #ebc5b6;
+border-left:1px solid #4f1e0a;
+border-right:1px solid #4f1e0a;
 line-height:1.6em;
 padding-left:15px;
 padding-right:0em;
@@ -84,11 +90,11 @@ margin-right:auto;
 }
 
 #portal-breadcrumbs a {
-color:#ddd;
+color:#777;
 }
 
 #portal-breadcrumbs a:hover {
-color:#d8de56;
+color:#ac3a06;
 }
 
 
@@ -97,6 +103,9 @@ color:#d8de56;
 width:927px !important;
 margin-left:auto;
 margin-right:auto;
+border-left:1px solid #4f1e0a;
+border-right:1px solid #4f1e0a;
+
 }
 
 /*** COLONNE GAUCHE ***/
@@ -171,15 +180,28 @@ color:#000;
 color:#fff !important;
 }
 
-#portal-column-one-footer{
-width:155px;
-height:135px;
-background-color:#fff;
-background-image:url(fond-menu2.png);
-background-repeat:no-repeat;
-background-position:bottom;
-}
-
 #portal-column-content{
 background-color:#fff;    
+}
+
+#footer-labraise{
+width:929px;
+height:38px;
+background-color:transparent;
+background-image:url(footer.png);
+background-repeat:no-repeat;
+background-position:center;
+border-top:1px solid #eee;
+margin:auto;
+text-align:center;
+}
+
+#marque{
+font-size:0.8em;
+font-weight:none;
+}
+
+#marque a {
+color:#333;
+font-weight:none;
 }
