@@ -73,13 +73,30 @@ float:right;
 margin-right:50px;
 }
 
-#portal-languageselector a {
+#portal-languageselector li {
+margin-left:2px;
+margin-right:2px;
+}
+
+#portal-languageselector li a {
 color:#777;
 text-decoration:none;
 }
-#portal-languageselector a:hover {
+
+#portal-languageselector li.currentItem a {
+font-weight: bolder;
+color:#D35904;
+}
+
+li.currentItem {
+border:none;
+padding:0px;
+}
+
+#portal-languageselector li a:hover {
 color:#ac3a06;
 }
+
 /*** FIL ARIANE - BREADCRUMBS ***/
 #portal-breadcrumbs {
 background-color:#fff;
