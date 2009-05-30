@@ -61,9 +61,16 @@ text-decoration:none;
 
 
 /*** LANGUAGE SELECTOR ***/
+#languageselector{
+margin-left:auto;
+margin-right:auto;
+margin-top:-17px;
+width:926px;
+}
+
 #portal-languageselector {
-float:left;
-margin-left:105px;
+float:right;
+margin-right:50px;
 }
 
 #portal-languageselector a {

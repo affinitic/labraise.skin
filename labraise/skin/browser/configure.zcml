@@ -18,7 +18,7 @@
         class=".navigation.MyNavRenderer"
          />
 
-    <!-- m-smile header -->
+    <!-- la braise header -->
     <browser:viewlet
         name="labraise.header"
         manager="plone.app.layout.viewlets.interfaces.IPortalTop"
@@ -27,25 +27,14 @@
         permission="zope.Public"
         />
 
-
-    <!-- move portlet plone.path_bar-->
     <browser:viewlet
-        name="plone.path_bar"
+        name="labraise.languageselector"
         manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class="plone.app.layout.viewlets.common.PathBarViewlet"
-        layer=".interfaces.ILaBraiseTheme"
+        class=".viewlets.LaBraiseLanguageSelector"
         permission="zope2.View"
+        layer=".interfaces.ILaBraiseTheme"
         />
 
-    <!-- move portlet plone.personnal_bar-->
-    <browser:viewlet
-        name="plone.personnal_bar"
-        manager="plone.app.layout.viewlets.interfaces.IPortalTop"
-        class="plone.app.layout.viewlets.common.PersonalBarViewlet"
-        layer=".interfaces.ILaBraiseTheme"
-        permission="zope2.View"
-        />
-        
     <!-- la braise footer -->
     <browser:viewlet
         name="labraise.footer"

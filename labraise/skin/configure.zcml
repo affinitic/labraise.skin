@@ -2,9 +2,13 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="labraise.skin">
 
    <five:registerPackage package="." initialize=".initialize" />
+   <include package="z3c.jbot" file="meta.zcml" />
+
+   <browser:templateOverrides directory="skins/labraise_skin_custom_templates" />
 
    <include package=".browser" />
 
