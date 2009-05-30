@@ -1,8 +1,9 @@
 <tal:block i18n:domain="plone">
 <dl class="portlet portletNavigationTree"  
     tal:define="root view/navigation_root">
-<!--
-    <dt class="portletHeader">
+
+    <dt class="navigationHeader">
+        <!--
         <span class="portletTopLeft"></span>
         <a href="#" 
            class="tile"
@@ -15,9 +16,10 @@
            tal:attributes="href string:${root/absolute_url}/sitemap"
            tal:content="view/title">Navigation</a>
         <span class="portletTopRight"></span>
+        -->
     </dt>
--->
-    <dd class="portletItem lastItem">
+
+    <dd class="portletItem">
         <ul class="navTree navTreeLevel0">
             <li class="navTreeItem"
                 tal:condition="view/include_top">
@@ -45,5 +47,7 @@
         <span class="portletBottomLeft"></span>
         <span class="portletBottomRight"></span>
     </dd>
+    <dt class="navigationLastItem">
+    </dt>
 </dl>
 </tal:block>
