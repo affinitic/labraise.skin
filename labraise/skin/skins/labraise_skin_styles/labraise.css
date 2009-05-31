@@ -55,19 +55,20 @@ height:189px;
 }
 
 #labraise-logo{
-float:left;
+position:absolute;
 width:188px;
 margin-left:21px;
-z-index:99;
+z-index:10;
 }
 
 #labraise-anim{
-float:right;
+position:absolute;
+z-index:;-1;
 }
 
 #anim{
-width:700px;
-height:190px;
+width:925px;
+height:147px;
 }
 
 
