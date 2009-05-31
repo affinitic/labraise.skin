@@ -9,28 +9,6 @@ background-color:#776b5c;
 background-image:url(bckg_body.gif);
 }
 
-
-
-
-/*** BANDEAU SUP ***/
-#header-labraise{
-margin-left:auto;
-margin-right:auto;
-background-color:#643105;
-background-image:url(header.jpg);
-background-repeat:no-repeat;
-background-position:right;
-border-left:2px solid #4f1e0a;
-border-right:2px solid #4f1e0a;
-width:926px;
-height:189px;
-}
-
-#labraise-logo{
-margin-left:21px;
-}
-
-
 /*** BARRE PERSONNEL***/
 #portal-personaltools {
 width:920px;
@@ -58,6 +36,29 @@ text-decoration:none;
 color:#ac3a06;
 text-decoration:none;
 }
+
+
+/*** BANDEAU SUP ***/
+#header-labraise{
+margin-left:auto;
+margin-right:auto;
+margin-bottom:-33px;
+background-color:#643105;
+background-image:url(header.png);
+background-repeat:no-repeat;
+background-position:right;
+border-left:2px solid #4f1e0a;
+border-right:2px solid #4f1e0a;
+width:926px;
+height:189px;
+}
+
+#labraise-logo{
+width:188px;
+margin-left:21px;
+}
+
+
 
 
 /*** LANGUAGE SELECTOR ***/
@@ -98,6 +99,7 @@ color:#ac3a06;
 }
 
 /*** FIL ARIANE - BREADCRUMBS ***/
+/**
 #portal-breadcrumbs {
 background-color:#fff;
 width:911px;
@@ -110,7 +112,6 @@ padding-right:0em;
 text-transform:none;
 margin-left:auto;
 margin-right:auto;
-/*color:#d8de56;*/
 }
 
 #portal-breadcrumbs a {
@@ -120,16 +121,17 @@ color:#777;
 #portal-breadcrumbs a:hover {
 color:#ac3a06;
 }
-
+**/
 
 /*** TABLEAU CONTENU***/
-#portal-columns{
-width:927px !important;
-margin-left:auto;
-margin-right:auto;
-border-left:3px solid #4f1e0a;
-border-right:3px solid #4f1e0a;
+#main-content{
+width:925px !important;
+margin:auto;
+border-left:2px solid #4f1e0a;
+border-right:2px solid #f00; /*#4f1e0a;*/
+}
 
+#portal-columns{
 }
 
 /*** COLONNE GAUCHE ***/
