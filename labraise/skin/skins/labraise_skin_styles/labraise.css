@@ -44,10 +44,10 @@ text-decoration:none;
 margin-left:auto;
 margin-right:auto;
 margin-bottom:-33px;
-background-color:#643105;
-/*background-image:url(header.png);
+background-color:#fff;
+background-image:url(bckg_mur.png);
 background-repeat:no-repeat;
-background-position:right;*/
+background-position:left top;
 border-left:2px solid #4f1e0a;
 border-right:2px solid #4f1e0a;
 width:925px;
@@ -63,11 +63,13 @@ z-index:10;
 
 #labraise-anim{
 position:absolute;
+left:274px;
 z-index:;-1;
+border-bottom:3px solid #9e6852;
 }
 
 #anim{
-width:925px;
+width:750px;
 height:147px;
 }
 
