@@ -16,6 +16,7 @@
                - Gsm: 32(0) 486 477 150
            </span>
            <div id="marque">
+              <div id="linksPlone">
               <a href="http://plone.org"
                  target="_blank"
                  title="This site was built using Plone CMS, 
@@ -24,9 +25,8 @@
                  i18n:attributes="title title_built_with_plone;"
                  i18n:translate="label_powered_by_plone">
                  Powered by Plone</a>
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </div>
+              <div id="linksAffinitic">
               <a href="http://www.affinitic.be"
                  target="_blank"
                  title="This site has been developed and is hosted by Affinitic."
@@ -34,6 +34,7 @@
                  i18n:attributes="title title_developed_affinitic;"
                  i18n:translate="label_affinitic">
                  Developped and hosted by Affinitic</a>
+              </div>
            </div>
         </div>
 </div>

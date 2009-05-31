@@ -233,14 +233,33 @@ background-repeat:no-repeat;
 background-position:center;
 margin:auto;
 text-align:center;
+color:#888;
 }
 
 #marque{
 font-size:0.8em;
 font-weight:none;
+padding-top:7px;
 }
 
 #marque a {
 color:#333;
 font-weight:none;
+color:#aaa;
+}
+
+#marque a:hover {
+color:#333;
+font-weight:none;
+color:#333;
+}
+
+#linksPlone{
+margin-left:310px;
+float:left;
+}
+
+#linksAffinitic{
+margin-right:248px;
+float:right;
 }
