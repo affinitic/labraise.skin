@@ -7,6 +7,7 @@
 body{
 background-color:#776b5c;
 background-image:url(bckg_body.gif);
+/*background-image:url(bckg_body2.jpg);*/
 }
 
 /*** BARRE PERSONNEL***/
@@ -29,7 +30,7 @@ text-align:right;
 text-transform:none;
 }
 #portal-personaltools li a {
-color:#777;
+color:#ccc;
 text-decoration:none;
 }
 #portal-personaltools li a:hover {
@@ -44,9 +45,9 @@ margin-left:auto;
 margin-right:auto;
 margin-bottom:-33px;
 background-color:#643105;
-background-image:url(header.png);
+/*background-image:url(header.png);
 background-repeat:no-repeat;
-background-position:right;
+background-position:right;*/
 border-left:2px solid #4f1e0a;
 border-right:2px solid #4f1e0a;
 width:925px;
@@ -54,10 +55,20 @@ height:189px;
 }
 
 #labraise-logo{
+float:left;
 width:188px;
 margin-left:21px;
+z-index:99;
 }
 
+#labraise-anim{
+float:right;
+}
+
+#anim{
+width:700px;
+height:190px;
+}
 
 
 

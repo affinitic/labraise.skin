@@ -3,5 +3,24 @@
         <a href=""
            tal:attributes="href string: ${context/portal_url}"><img src="logo.png"></a>
     </div>
+
+    <div id="labraise-anim">
+    <object type="application/x-shockwave-flash"
+            data="slideshow.swf?xml_source=gallery.xml&license=LUBHMDK59036YFSLRTO9DN6IKN49JK"
+            id="anim">
+        <param name="base"
+               value="slideshow.swf" />
+        <param name="movie" 
+               value="slideshow.swf?xml_source=gallery.xml&license=LUBHMDK59036YFSLRTO9DN6IKN49JK" />
+        <param name="xml_source" 
+               value="gallery.xml" />
+        <param name="quality" 
+               value="hight" />
+        <param name="wmode"
+               value="transparent">
+        <param name="play" 
+               value="true" />
+    </object>
+    </div>
 </div>
 <div class="visualClear"></div>
