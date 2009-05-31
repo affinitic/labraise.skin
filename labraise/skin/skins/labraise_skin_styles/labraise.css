@@ -11,10 +11,10 @@ background-image:url(bckg_body.gif);
 
 /*** BARRE PERSONNEL***/
 #portal-personaltools {
-width:920px;
+width:919px;
 background-color:#fff;
-/*border-bottom:1px solid #ebc5b6;*/
-/*border-top:1px solid #ebc5b6;*/
+border-bottom:none;
+border-top:none;
 border-left:2px solid #4f1e0a;
 border-right:2px solid #4f1e0a;
 color:#999;
@@ -49,7 +49,7 @@ background-repeat:no-repeat;
 background-position:right;
 border-left:2px solid #4f1e0a;
 border-right:2px solid #4f1e0a;
-width:926px;
+width:925px;
 height:189px;
 }
 
@@ -128,7 +128,7 @@ color:#ac3a06;
 width:925px !important;
 margin:auto;
 border-left:2px solid #4f1e0a;
-border-right:2px solid #f00; /*#4f1e0a;*/
+border-right:2px solid #4f1e0a;
 }
 
 #portal-columns{
