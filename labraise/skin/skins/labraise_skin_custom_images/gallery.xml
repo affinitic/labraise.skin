@@ -2,34 +2,34 @@
 <slideshow>
 <slide>
     <image url='images/diapo01.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo02.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo03.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo04.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo05.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo06.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo07.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 <slide>
     <image url='images/diapo08.jpg' />
-    <motion duration='3' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
+    <motion duration='6' start_xOffset='0' end_xOffset='0' start_yOffset='-75' end_yOffset='40' start_zoom='250' end_zoom='250' />
 </slide>
 </slideshow>
