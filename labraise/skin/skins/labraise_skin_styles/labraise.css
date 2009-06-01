@@ -34,14 +34,12 @@ text-align:right;
 text-transform:none;
 }
 #portal-personaltools li a {
-color:#ccc;
 text-decoration:none;
 }
 #portal-personaltools li a:hover {
 color:#ac3a06;
 text-decoration:none;
 }
-
 
 /*** BANDEAU SUP ***/
 #header-labraise{
@@ -77,8 +75,6 @@ width:749px;
 width:750px;
 height:147px;
 }
-
-
 
 /*** LANGUAGE SELECTOR ***/
 #languageselector{
@@ -187,6 +183,7 @@ background-color:transparent;
 background-image:url(menu_content_off.png);
 border:0px solid White;
 display:block;
+height:21px;
 width:180px;
 text-decoration:none;
 text-align:left;
@@ -196,7 +193,6 @@ font-size:1.3em;
 padding:9px 0px 10px 25px;
 color:#fff;
 margin-bottom:-8px;
-
 }
 
 .navTreeItem a:hover, dd.portletItem .navTreeItem a:hover {
@@ -238,15 +234,9 @@ height:21px;
 }
 
 
-
-
-
 #portal-column-content{
 background-color:#fff;    
 }
-
-
-
 
 #footer-labraise{
 width:929px;
@@ -286,4 +276,12 @@ float:left;
 #linksAffinitic{
 margin-right:248px;
 float:right;
+}
+
+h1, h2 {
+border-bottom:1px solid #D35904;
+}
+
+.documentContent li a:visited, a {
+color: #ac3a06;
 }

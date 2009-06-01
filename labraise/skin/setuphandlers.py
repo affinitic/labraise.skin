@@ -23,7 +23,7 @@ def setupVarious(context):
     setupLanguages(portal)
     clearPortlets(portal)
     setupNavigationPortlet(portal)
-    createContent(portal)
+    # createContent(portal)
 
 
 def setupLanguages(portal):
