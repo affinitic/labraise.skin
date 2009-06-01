@@ -5,15 +5,14 @@
 
         
         <div id="coordonnee">
-            LA BRAISE &copy; 2004 - <span tal:define="now modules/DateTime/DateTime"
+            LA BRAISE &copy; 2008 - <span tal:define="now modules/DateTime/DateTime"
                                          tal:replace="now/year" />
-            <span i18n:domain="cesstex.skin"
-                  i18n:translate="cesstex_copyright">
-               -  All rights reserved.
+            <span i18n:domain="labraise.skin"
+                  i18n:translate="labraise_copyright">
                - Rue de Moscou, 32
                - B1060 Saint-Gilles 
                - <a href="contact-info">info@labraise.be</a>
-               - Gsm: 32(0) 486 477 150
+               - Gsm: +32(0) 486 477 150
            </span>
            <div id="marque">
               <div id="linksPlone">
