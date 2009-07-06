@@ -128,5 +128,5 @@ def setupNavigationPortlet(folder):
                                        currentFolderOnly=False,
                                        includeTop=False,
                                        topLevel=0,
-                                       bottomLevel=2)
+                                       bottomLevel=1)
     assignments['navtree'] = assignment
