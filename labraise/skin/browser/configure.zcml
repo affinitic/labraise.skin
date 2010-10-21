@@ -31,7 +31,7 @@
         name="labraise.languageselector"
         manager="plone.app.layout.viewlets.interfaces.IPortalTop"
         class=".viewlets.LaBraiseLanguageSelector"
-        permission="zope2.View"
+        permission="cmf.ModifyPortalContent"
         layer=".interfaces.ILaBraiseTheme"
         />
 
