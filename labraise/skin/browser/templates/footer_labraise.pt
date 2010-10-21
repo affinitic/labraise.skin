@@ -7,13 +7,7 @@
         <div id="coordonnee">
             LA BRAISE &copy; 2008-<span tal:define="now modules/DateTime/DateTime"
                                         tal:replace="now/year" />
-            <span i18n:domain="labraise.skin"
-                  i18n:translate="labraise_copyright">
-               &#8212; Rue de Moscou, 32
-                B-1060 Saint-Gilles 
-               &#8212; <a href="contact-info">info@restolabraise.net</a>
-               &#8212; Gsm: +32(0) 486 477 150
-           </span>
+            &#8212; <a href="contact-info">info@restolabraise.net</a>
            <div id="marque">
               <div id="linksPlone">
               <a href="http://plone.org"
